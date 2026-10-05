@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Backend
+backend/data.sqlite
+backend/data.sqlite-wal
+backend/data.sqlite-shm
+
+# Mobile — Android
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/app/.cxx/
+mobile/android/build/
+mobile/android/local.properties
+mobile/android/.idea/
+mobile/android/*.iml
+mobile/android/captures/
+
+# Mobile — iOS
+mobile/ios/build/
+mobile/ios/Pods/
+mobile/ios/*.xcworkspace
+
+# Mobile — RN / Metro
+*.jsbundle
+
+# Misc
+.DS_Store
+*.log
+.claude/
